@@ -45,8 +45,8 @@ export function VisaSelection({ onSelect }: VisaSelectionProps) {
   return (
     <div className="max-w-4xl mx-auto py-12 animate-fade-in">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">Select Visa Type</h2>
-        <p className="mt-4 text-lg/8 text-zinc-400">
+        <h2 className="text-3xl font-bold tracking-tight text-zinc-800 sm:text-4xl">Select Visa Type</h2>
+        <p className="mt-4 text-lg/8 text-text-secondary">
           Choose the US visa you are applying for to see the required documents.
         </p>
       </div>
@@ -55,17 +55,17 @@ export function VisaSelection({ onSelect }: VisaSelectionProps) {
         {VISA_TYPES.map((visa) => (
           <Card 
             key={visa.id} 
-            className="bg-zinc-900 border-zinc-800 hover:border-zinc-700 transition-colors cursor-pointer group"
+            className="bg-muted border-border hover:border-border transition-colors cursor-pointer group"
             onClick={() => onSelect(visa.id)}
           >
             <CardHeader>
               <div className="flex items-center gap-4">
-                <div className="p-3 bg-zinc-800 rounded-lg group-hover:bg-zinc-700 transition-colors">
+                <div className="p-3 bg-muted rounded-lg group-hover:bg-zinc-700 transition-colors">
                   {visa.icon}
                 </div>
                 <div>
-                  <CardTitle className="text-xl text-zinc-100">{visa.name}</CardTitle>
-                  <CardDescription className="text-zinc-400 mt-1">{visa.description}</CardDescription>
+                  <CardTitle className="text-xl text-text-primary">{visa.name}</CardTitle>
+                  <CardDescription className="text-text-secondary mt-1">{visa.description}</CardDescription>
                 </div>
               </div>
             </CardHeader>

@@ -204,15 +204,15 @@ export function StepProcess({ uploadedDocs, onComplete }: StepProcessProps) {
       case "failed":
         return <AlertCircle size={16} className="text-red-400" />;
       default:
-        return <FileText size={16} className="text-zinc-500" />;
+        return <FileText size={16} className="text-text-secondary" />;
     }
   };
 
   if (!loaded) {
     return (
       <div className="flex items-center justify-center py-20">
-        <Loader2 className="animate-spin text-zinc-500" size={24} />
-        <span className="ml-3 text-zinc-500">Loading document statuses...</span>
+        <Loader2 className="animate-spin text-text-secondary" size={24} />
+        <span className="ml-3 text-text-secondary">Loading document statuses...</span>
       </div>
     );
   }
@@ -221,8 +221,8 @@ export function StepProcess({ uploadedDocs, onComplete }: StepProcessProps) {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-semibold text-zinc-100">Process Documents</h2>
-          <p className="text-sm text-zinc-500 mt-1">
+          <h2 className="text-xl font-semibold text-text-primary">Process Documents</h2>
+          <p className="text-sm text-text-secondary mt-1">
             Run OCR and extract structured data from your uploaded documents
           </p>
         </div>
@@ -245,14 +245,14 @@ export function StepProcess({ uploadedDocs, onComplete }: StepProcessProps) {
             }`}
           >
             <div
-              className="p-4 flex items-center justify-between cursor-pointer hover:bg-zinc-900/30 transition-colors"
+              className="p-4 flex items-center justify-between cursor-pointer hover:bg-muted/30 transition-colors"
               onClick={() => doc.status === "extracted" && toggleExpand(idx)}
             >
               <div className="flex items-center gap-4">
                 {statusIcon(doc.status)}
                 <div>
-                  <p className="text-sm font-medium text-zinc-200">{doc.filename}</p>
-                  <p className="text-xs text-zinc-500">{doc.doc_type.replace("_", " ")}</p>
+                  <p className="text-sm font-medium text-text-primary">{doc.filename}</p>
+                  <p className="text-xs text-text-secondary">{doc.doc_type.replace("_", " ")}</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -285,27 +285,27 @@ export function StepProcess({ uploadedDocs, onComplete }: StepProcessProps) {
                 )}
                 {doc.status === "extracted" &&
                   (doc.expanded ? (
-                    <ChevronUp size={14} className="text-zinc-500" />
+                    <ChevronUp size={14} className="text-text-secondary" />
                   ) : (
-                    <ChevronDown size={14} className="text-zinc-500" />
+                    <ChevronDown size={14} className="text-text-secondary" />
                   ))}
               </div>
             </div>
 
             {/* Expanded extracted fields */}
             {doc.expanded && doc.fields && (
-              <div className="border-t border-zinc-800 bg-zinc-900/20 p-4 animate-fade-in">
-                <p className="text-xs font-medium text-zinc-400 mb-3 uppercase tracking-wider">
+              <div className="border-t border-border bg-muted/20 p-4 animate-fade-in">
+                <p className="text-xs font-medium text-text-secondary mb-3 uppercase tracking-wider">
                   Extracted Fields
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {Object.entries(doc.fields).map(([key, value]) => (
                     <div
                       key={key}
-                      className="p-3 rounded-lg bg-zinc-950/50 border border-zinc-800/50"
+                      className="p-3 rounded-lg bg-background/50 border border-border/50"
                     >
-                      <p className="text-xs text-zinc-500 mb-0.5">{key.replace(/_/g, " ")}</p>
-                      <p className="text-sm text-zinc-200 font-mono">
+                      <p className="text-xs text-text-secondary mb-0.5">{key.replace(/_/g, " ")}</p>
+                      <p className="text-sm text-text-primary font-mono">
                         {typeof value === "object"
                           ? JSON.stringify(value)
                           : String(value ?? "—")}

@@ -24,23 +24,23 @@ export function FormSection({
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
-    <div id={id} className="border border-zinc-800 rounded-xl bg-zinc-900/20 overflow-hidden transition-all duration-300 hover:border-zinc-700/50">
+    <div id={id} className="border border-border rounded-xl bg-muted/20 overflow-hidden transition-all duration-300 hover:border-border/50">
       <div
-        className="flex items-center justify-between p-4 cursor-pointer bg-zinc-900/40 hover:bg-zinc-900/60 transition-colors"
+        className="flex items-center justify-between p-4 cursor-pointer bg-muted/40 hover:bg-muted/60 transition-colors"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex flex-col gap-0.5">
-          <h3 className="text-base font-semibold text-zinc-200 flex items-center gap-3">
+          <h3 className="text-base font-semibold text-text-primary flex items-center gap-3">
             {title}
             {badge && (
-              <span className="text-[10px] font-medium bg-zinc-800 text-zinc-400 px-2 py-0.5 rounded-full border border-zinc-700">
+              <span className="text-[10px] font-medium bg-muted text-text-secondary px-2 py-0.5 rounded-full border border-border">
                 {badge}
               </span>
             )}
           </h3>
-          {description && <p className="text-xs text-zinc-500">{description}</p>}
+          {description && <p className="text-xs text-text-secondary">{description}</p>}
         </div>
-        <div className={cn("text-zinc-500 transition-transform duration-300", isOpen && "rotate-180")}>
+        <div className={cn("text-text-secondary transition-transform duration-300", isOpen && "rotate-180")}>
           <ChevronDown size={18} />
         </div>
       </div>
@@ -51,7 +51,7 @@ export function FormSection({
           isOpen ? "max-h-[2000px] opacity-100" : "max-h-0 opacity-0"
         )}
       >
-        <div className="p-4 border-t border-zinc-800/50 bg-black/20">
+        <div className="p-4 border-t border-border/50 bg-background/20">
           {children}
         </div>
       </div>

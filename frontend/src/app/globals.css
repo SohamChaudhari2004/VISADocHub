@@ -15,6 +15,14 @@
   --color-destructive: var(--destructive);
   --color-success: var(--success);
   --color-warning: var(--warning);
+
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-secondary: var(--secondary);
+  --color-secondary-dark: var(--secondary-dark);
+  --color-secondary-light: var(--secondary-light);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --radius-sm: 0.375rem;
@@ -24,26 +32,33 @@
 }
 
 :root {
-  --background: #09090b;
-  --foreground: #fafafa;
-  --card: #0a0a0f;
-  --card-foreground: #fafafa;
-  --muted: #18181b;
-  --muted-foreground: #a1a1aa;
-  --border: #27272a;
-  --input: #27272a;
-  --ring: #d4d4d8;
-  --accent: #ffffff;
-  --accent-foreground: #09090b;
-  --destructive: #ef4444;
-  --success: #22c55e;
+  --background: #F5F5F5;
+  --foreground: #212121;
+  --card: #FFFFFF;
+  --card-foreground: #212121;
+  --muted: #E0E0E0;
+  --muted-foreground: #757575;
+  --border: #BDBDBD;
+  --input: #BDBDBD;
+  --ring: #64B5F6;
+  --accent: #2196F3;
+  --accent-foreground: #FFFFFF;
+  --destructive: #D32F2F;
+  --success: #4CAF50;
   --warning: #eab308;
+
+  --primary: #2196F3;
+  --primary-dark: #1976D2;
+  --primary-light: #64B5F6;
+  --secondary: #4CAF50;
+  --secondary-dark: #388E3C;
+  --secondary-light: #81C784;
 }
 
 * {
   border-color: var(--border);
   scrollbar-width: thin;
-  scrollbar-color: #27272a transparent;
+  scrollbar-color: var(--border) transparent;
 }
 
 body {
@@ -62,11 +77,11 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #27272a;
+  background: var(--border);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3f3f46;
+  background: var(--muted-foreground);
 }
 
 /* Animations */
@@ -103,7 +118,7 @@ body {
 }
 
 .skeleton {
-  background: linear-gradient(90deg, #18181b 25%, #27272a 50%, #18181b 75%);
+  background: linear-gradient(90deg, #E0E0E0 25%, #F5F5F5 50%, #E0E0E0 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: var(--radius-md);

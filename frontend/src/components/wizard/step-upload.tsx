@@ -99,7 +99,7 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
 
   if (loadingDocs) {
     return (
-      <div className="flex flex-col items-center justify-center p-12 text-zinc-500">
+      <div className="flex flex-col items-center justify-center p-12 text-text-secondary">
         <Loader2 className="animate-spin h-8 w-8 mb-4" />
         <p>Loading document requirements...</p>
       </div>
@@ -110,7 +110,7 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {/* Sidebar - Doc Types */}
       <div className="space-y-2">
-        <p className="text-sm font-medium text-zinc-400 mb-2 px-2">Document Checklist</p>
+        <p className="text-sm font-medium text-text-secondary mb-2 px-2">Document Checklist</p>
         {docTypes.map((type) => {
           const count = files[type.id]?.length || 0;
           return (
@@ -120,8 +120,8 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
               className={cn(
                 "w-full text-left px-3 py-2 rounded-lg text-sm transition-colors flex items-center justify-between group",
                 activeType === type.id
-                  ? "bg-zinc-800 text-white font-medium"
-                  : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900"
+                  ? "bg-muted text-white font-medium"
+                  : "text-text-secondary hover:text-text-primary hover:bg-muted"
               )}
             >
               <span>{type.label}</span>
@@ -132,7 +132,7 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
                 </span>
               )}
               {count === 0 && type.required && (
-                <span className="text-[10px] text-zinc-600 bg-zinc-900 px-1.5 py-0.5 rounded border border-zinc-800">
+                <span className="text-[10px] text-text-secondary bg-muted px-1.5 py-0.5 rounded border border-border">
                   Required
                 </span>
               )}
@@ -144,25 +144,25 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
       {/* Main Upload Area */}
       <div className="md:col-span-2 space-y-6">
         <div>
-          <h2 className="text-xl font-semibold text-zinc-100 flex items-center gap-2">
+          <h2 className="text-xl font-semibold text-text-primary flex items-center gap-2">
             Upload {currentType?.label}
             {currentType?.required && <span className="text-red-500 text-sm">*</span>}
           </h2>
-          <p className="text-sm text-zinc-500 mt-1">
+          <p className="text-sm text-text-secondary mt-1">
             Supported formats: PDF, JPG, PNG. Max size: 10MB per file.
           </p>
         </div>
 
         {/* Dropzone */}
         <div
-          className="border-2 border-dashed border-zinc-800 rounded-xl p-8 flex flex-col items-center justify-center text-center hover:border-zinc-700 hover:bg-zinc-900/20 transition-all cursor-pointer group"
+          className="border-2 border-dashed border-border rounded-xl p-8 flex flex-col items-center justify-center text-center hover:border-border hover:bg-muted/20 transition-all cursor-pointer group"
           onClick={() => fileInputRef.current?.click()}
         >
-          <div className="w-12 h-12 rounded-full bg-zinc-900 flex items-center justify-center mb-4 group-hover:bg-zinc-800 transition-colors">
-            <Upload className="text-zinc-400 group-hover:text-white" size={20} />
+          <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center mb-4 group-hover:bg-muted transition-colors">
+            <Upload className="text-text-secondary group-hover:text-white" size={20} />
           </div>
-          <p className="text-zinc-300 font-medium">Click to upload or drag and drop</p>
-          <p className="text-sm text-zinc-500 mt-1">
+          <p className="text-text-secondary font-medium">Click to upload or drag and drop</p>
+          <p className="text-sm text-text-secondary mt-1">
             Recommeded: Scanned PDF or high-quality image
           </p>
           <input
@@ -181,18 +181,18 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
             {files[activeType].map((file, idx) => (
               <div
                 key={idx}
-                className="flex items-center justify-between p-3 bg-zinc-900/50 rounded-lg border border-zinc-800 animate-fade-in"
+                className="flex items-center justify-between p-3 bg-muted/50 rounded-lg border border-border animate-fade-in"
               >
                 <div className="flex items-center gap-3">
                   <FileText size={16} className="text-blue-400" />
                   <div>
-                    <p className="text-sm text-zinc-200 truncate max-w-[200px]">{file.name}</p>
-                    <p className="text-xs text-zinc-500">{(file.size / 1024 / 1024).toFixed(2)} MB</p>
+                    <p className="text-sm text-text-primary truncate max-w-[200px]">{file.name}</p>
+                    <p className="text-xs text-text-secondary">{(file.size / 1024 / 1024).toFixed(2)} MB</p>
                   </div>
                 </div>
                 <button
                   onClick={() => removeFile(activeType, idx)}
-                  className="text-zinc-500 hover:text-red-400 p-1"
+                  className="text-text-secondary hover:text-red-400 p-1"
                 >
                   <X size={14} />
                 </button>
@@ -209,7 +209,7 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
         )}
 
         {/* Actions */}
-        <div className="border-t border-zinc-800 pt-6 flex justify-end">
+        <div className="border-t border-border pt-6 flex justify-end">
           <Button
             onClick={handleUpload}
             disabled={!hasRequiredDocs || uploading}
@@ -222,7 +222,7 @@ export function StepUpload({ onComplete, visaType }: StepUploadProps) {
         {uploading && (
           <div className="space-y-1">
             <Progress value={progress} className="h-1" />
-            <p className="text-xs text-zinc-500 text-center">Uploading documents...</p>
+            <p className="text-xs text-text-secondary text-center">Uploading documents...</p>
           </div>
         )}
       </div>

@@ -49,8 +49,8 @@ export function WizardStepper({
                     isCompleted || isPast
                       ? "bg-white border-white text-black"
                       : isCurrent
-                      ? "bg-zinc-900 border-white text-white shadow-lg shadow-white/10"
-                      : "bg-zinc-900 border-zinc-700 text-zinc-500",
+                      ? "bg-muted border-white text-white shadow-lg shadow-white/10"
+                      : "bg-muted border-border text-text-secondary",
                     isClickable &&
                       "group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-white/20"
                   )}
@@ -68,14 +68,14 @@ export function WizardStepper({
                       isCurrent
                         ? "text-white"
                         : isPast || isCompleted
-                        ? "text-zinc-400"
-                        : "text-zinc-600",
+                        ? "text-text-secondary"
+                        : "text-text-secondary",
                       isClickable && "group-hover:text-white"
                     )}
                   >
                     {step.label}
                   </p>
-                  <p className="text-[10px] text-zinc-600 hidden sm:block mt-0.5">
+                  <p className="text-[10px] text-text-secondary hidden sm:block mt-0.5">
                     {step.description}
                   </p>
                 </div>
@@ -84,7 +84,7 @@ export function WizardStepper({
               {/* Connector line */}
               {idx < steps.length - 1 && (
                 <div className="flex-1 mx-3 mt-[-28px]">
-                  <div className="h-0.5 w-full bg-zinc-800 rounded-full overflow-hidden">
+                  <div className="h-0.5 w-full bg-muted rounded-full overflow-hidden">
                     <div
                       className={cn(
                         "h-full bg-white rounded-full transition-all duration-500",

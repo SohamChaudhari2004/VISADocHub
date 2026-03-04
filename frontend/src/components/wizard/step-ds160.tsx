@@ -117,9 +117,9 @@ export function StepDS160({ onComplete }: StepDS160Props) {
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center py-20">
-        <Loader2 className="animate-spin text-zinc-500 mb-4" size={32} />
-        <p className="text-zinc-400">Genering your DS-160 application...</p>
-        <p className="text-xs text-zinc-600 mt-2">Mapping extracted data to official form fields</p>
+        <Loader2 className="animate-spin text-text-secondary mb-4" size={32} />
+        <p className="text-text-secondary">Genering your DS-160 application...</p>
+        <p className="text-xs text-text-secondary mt-2">Mapping extracted data to official form fields</p>
       </div>
     );
   }
@@ -133,7 +133,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
         <Card className="sticky top-24">
           <CardContent className="p-4 space-y-4">
             <div>
-              <p className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">Completion Status</p>
+              <p className="text-xs font-bold text-text-secondary uppercase tracking-wider mb-2">Completion Status</p>
               <div className="flex items-center justify-between mb-1">
                 <span className="text-2xl font-bold text-white">{completeness}%</span>
                 {completeness >= 90 ? (
@@ -142,7 +142,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
                   <AlertTriangle className="text-yellow-500" size={20} />
                 )}
               </div>
-              <div className="h-2 w-full bg-zinc-800 rounded-full overflow-hidden">
+              <div className="h-2 w-full bg-muted rounded-full overflow-hidden">
                 <div 
                   className="h-full bg-linear-to-r from-blue-600 to-indigo-500 transition-all duration-500"
                   style={{ width: `${completeness}%` }}
@@ -150,7 +150,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
               </div>
             </div>
 
-            <div className="pt-4 border-t border-zinc-800 space-y-2">
+            <div className="pt-4 border-t border-border space-y-2">
               <Button 
                 variant="outline" 
                 className="w-full justify-start gap-2"
@@ -177,7 +177,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
               </Button>
             </div>
 
-            <div className="pt-4 border-t border-zinc-800">
+            <div className="pt-4 border-t border-border">
               <Button 
                 className="w-full justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold"
                 onClick={() => onComplete?.(formData)}
@@ -194,7 +194,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
           {SECTIONS.map((sec) => (
             <div 
               key={sec.id}
-              className="text-sm px-3 py-2 text-zinc-400 hover:text-white cursor-pointer rounded-md hover:bg-zinc-900/50 transition-colors flex items-center gap-2"
+              className="text-sm px-3 py-2 text-text-secondary hover:text-white cursor-pointer rounded-md hover:bg-muted/50 transition-colors flex items-center gap-2"
               onClick={() => document.getElementById(sec.id)?.scrollIntoView({ behavior: "smooth" })}
             >
               <div className="w-1 h-1 rounded-full bg-zinc-600" />
@@ -208,7 +208,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
       <div className="lg:col-span-3 space-y-6 pb-20">
         <div className="flex items-center justify-between">
           <h2 className="text-2xl font-bold text-white">Review & Edit Application</h2>
-          <span className="text-xs text-zinc-500 bg-zinc-900 px-2 py-1 rounded">Form Version: 2024.01</span>
+          <span className="text-xs text-text-secondary bg-muted px-2 py-1 rounded">Form Version: 2024.01</span>
         </div>
 
         {SECTIONS.map((section) => {
@@ -250,7 +250,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
 
                   return (
                     <div key={key} className="space-y-1.5">
-                      <Label className="text-xs text-zinc-400 uppercase tracking-wide">
+                      <Label className="text-xs text-text-secondary uppercase tracking-wide">
                         {key.replace(/_/g, " ")}
                       </Label>
                       {isYesNo ? (
@@ -258,7 +258,7 @@ export function StepDS160({ onComplete }: StepDS160Props) {
                           defaultValue={defaultVal}
                           onValueChange={(v) => handleFieldChange(section.id, key, v)}
                         >
-                          <SelectTrigger className="bg-zinc-950/50 border-zinc-800">
+                          <SelectTrigger className="bg-background/50 border-border">
                             <SelectValue placeholder="Select" />
                           </SelectTrigger>
                           <SelectContent>
@@ -270,14 +270,14 @@ export function StepDS160({ onComplete }: StepDS160Props) {
                         <Input
                           defaultValue={value as string}
                           onChange={(e) => handleFieldChange(section.id, key, e.target.value)}
-                          className="bg-zinc-950/50 border-zinc-800 focus:border-indigo-500 transition-colors"
+                          className="bg-background/50 border-border focus:border-indigo-500 transition-colors"
                         />
                       )}
                     </div>
                   );
                 })}
                 {fieldCount === 0 && (
-                  <div className="col-span-2 py-8 text-center text-zinc-500 italic bg-zinc-950/30 rounded-lg border border-zinc-900 border-dashed">
+                  <div className="col-span-2 py-8 text-center text-text-secondary italic bg-background/30 rounded-lg border border-border border-dashed">
                     No data available for this section.
                   </div>
                 )}

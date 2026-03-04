@@ -34,14 +34,14 @@ export function StepExport({ formData, onComplete }: StepExportProps) {
 
   return (
     <div className="flex flex-col items-center max-w-2xl mx-auto py-12 space-y-6">
-      <Card className="w-full bg-zinc-900 border-zinc-800">
+      <Card className="w-full bg-muted border-border">
         <CardContent className="p-8 text-center space-y-4">
           <div className="mx-auto w-16 h-16 rounded-full bg-indigo-500/20 flex items-center justify-center text-indigo-400 mb-6">
             <FileText size={32} />
           </div>
           
           <h2 className="text-2xl font-bold text-white">Application Ready</h2>
-          <p className="text-zinc-400">
+          <p className="text-text-secondary">
             We have merged your data into the final DS-160 PDF. You can now download and review the completed application form.
           </p>
           
@@ -59,7 +59,7 @@ export function StepExport({ formData, onComplete }: StepExportProps) {
                 </Button>
               </a>
             ) : (
-              <Button onClick={generateEditedPdf} className="w-full gap-2 bg-zinc-800 hover:bg-zinc-700">
+              <Button onClick={generateEditedPdf} className="w-full gap-2 bg-muted hover:bg-zinc-700">
                 Retry Generation
               </Button>
             )}

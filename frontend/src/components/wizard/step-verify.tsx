@@ -64,8 +64,8 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-semibold text-zinc-100">Verify Documents</h2>
-          <p className="text-sm text-zinc-500 mt-1">
+          <h2 className="text-xl font-semibold text-text-primary">Verify Documents</h2>
+          <p className="text-sm text-text-secondary mt-1">
             Cross-check all documents for consistency before generating DS-160
           </p>
         </div>
@@ -86,9 +86,9 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
       {!data && !running && !error && (
         <Card>
           <CardContent className="py-12 text-center">
-            <ShieldCheck className="mx-auto mb-3 text-zinc-600" size={40} />
-            <p className="text-zinc-400">Click "Verify Documents" to run consistency checks</p>
-            <p className="text-sm text-zinc-500 mt-1">
+            <ShieldCheck className="mx-auto mb-3 text-text-secondary" size={40} />
+            <p className="text-text-secondary">Click "Verify Documents" to run consistency checks</p>
+            <p className="text-sm text-text-secondary mt-1">
               We&apos;ll compare names, dates, passport numbers across all your documents
             </p>
           </CardContent>
@@ -99,8 +99,8 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
         <Card>
           <CardContent className="py-12 text-center">
             <div className="w-10 h-10 border-2 border-white/20 border-t-white rounded-full animate-spin mx-auto mb-4" />
-            <p className="text-zinc-300">Running verification checks...</p>
-            <p className="text-sm text-zinc-500 mt-1">Comparing data across all documents</p>
+            <p className="text-text-secondary">Running verification checks...</p>
+            <p className="text-sm text-text-secondary mt-1">Comparing data across all documents</p>
           </CardContent>
         </Card>
       )}
@@ -112,9 +112,9 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
             <CardContent className="p-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-sm text-zinc-500 mb-1">Risk Score</p>
+                  <p className="text-sm text-text-secondary mb-1">Risk Score</p>
                   <p className={`text-5xl font-bold ${riskColor}`}>{riskScore}%</p>
-                  <p className="text-sm text-zinc-400 mt-2">
+                  <p className="text-sm text-text-secondary mt-2">
                     {riskScore <= 20
                       ? "Low risk — documents are consistent"
                       : riskScore <= 50
@@ -151,22 +151,22 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
               </CardHeader>
               <CardContent className="space-y-3">
                 {data.mismatches.map((m, idx) => (
-                  <div key={idx} className="p-4 rounded-xl bg-zinc-900/50 border border-zinc-800">
+                  <div key={idx} className="p-4 rounded-xl bg-muted/50 border border-border">
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-sm font-medium text-zinc-200 capitalize">
+                      <span className="text-sm font-medium text-text-primary capitalize">
                         {m.field.replace(/_/g, " ")}
                       </span>
                       <Badge variant={severityVariant(m.severity)}>{m.severity}</Badge>
                     </div>
-                    <p className="text-sm text-zinc-400 mb-2">{m.message}</p>
+                    <p className="text-sm text-text-secondary mb-2">{m.message}</p>
                     <div className="space-y-1.5">
                       {m.values.map((v, vi) => (
                         <div key={vi} className="flex items-center gap-3 text-sm">
                           <Badge variant="secondary" className="min-w-[90px] justify-center text-xs">
                             {v.doc_type.replace("_", " ")}
                           </Badge>
-                          <ArrowRight size={12} className="text-zinc-600" />
-                          <span className="text-zinc-200 font-mono text-xs">{v.value}</span>
+                          <ArrowRight size={12} className="text-text-secondary" />
+                          <span className="text-text-primary font-mono text-xs">{v.value}</span>
                         </div>
                       ))}
                     </div>
@@ -181,7 +181,7 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
             <Card>
               <CardHeader>
                 <CardTitle className="text-base flex items-center gap-2">
-                  <User size={16} className="text-zinc-400" />
+                  <User size={16} className="text-text-secondary" />
                   Verified Profile
                 </CardTitle>
                 <CardDescription>Consolidated data from all your documents</CardDescription>
@@ -189,9 +189,9 @@ export function StepVerify({ onComplete }: StepVerifyProps) {
               <CardContent>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
                   {Object.entries(data.verified_profile).map(([key, value]) => (
-                    <div key={key} className="p-3 rounded-lg bg-zinc-900/50 border border-zinc-800/50">
-                      <p className="text-xs text-zinc-500 mb-0.5 capitalize">{key.replace(/_/g, " ")}</p>
-                      <p className="text-sm text-zinc-200 font-medium">
+                    <div key={key} className="p-3 rounded-lg bg-muted/50 border border-border/50">
+                      <p className="text-xs text-text-secondary mb-0.5 capitalize">{key.replace(/_/g, " ")}</p>
+                      <p className="text-sm text-text-primary font-medium">
                         {typeof value === "object" ? JSON.stringify(value) : String(value ?? "—")}
                       </p>
                     </div>

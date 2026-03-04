@@ -86,24 +86,24 @@ export default function DashboardPage() {
 
   return (
     <AppLayout>
-      <div className="space-y-8 animate-fade-in">
+      <div className="space-y-6 sm:space-y-8 animate-fade-in p-4 sm:p-0">
         {/* Header */}
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-0">
           <div>
-            <h1 className="text-2xl font-bold text-zinc-100">DS-160 Application</h1>
-            <p className="text-zinc-500 mt-1">
+            <h1 className="text-xl sm:text-2xl font-bold text-text-primary">DS-160 Application</h1>
+            <p className="text-sm sm:text-base text-text-secondary mt-1">
               Follow the steps to generate your visa application form
             </p>
           </div>
           {currentStep > 1 && (
-            <div className="flex gap-2">
+            <div className="flex gap-2 w-full sm:w-auto">
               <Button
                 variant="ghost"
                 size="sm"
                 onClick={handleReset}
-                className="text-zinc-500"
+                className="text-text-secondary hover:text-text-primary w-full sm:w-auto"
               >
-                <RotateCcw size={14} />
+                <RotateCcw size={14} className="mr-2" />
                 Start Over
               </Button>
             </div>
@@ -119,7 +119,7 @@ export default function DashboardPage() {
         />
 
         {/* Divider */}
-        <div className="border-t border-zinc-800/60" />
+        <div className="border-t border-border" />
 
         {/* Step Content */}
         {!visaType ? (

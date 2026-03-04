@@ -19,19 +19,19 @@ export function MainNav({ className, ...props }: React.HTMLAttributes<HTMLElemen
 
   return (
     <nav className={cn("flex items-center space-x-4 lg:space-x-6", className)} {...props}>
-      <Link href="/" className="flex items-center gap-2 font-bold text-xl text-white mr-4">
-        <div className="w-8 h-8 rounded-xl bg-linear-to-tr from-blue-600 to-indigo-600 flex items-center justify-center">
+      <Link href="/" className="flex items-center gap-2 font-bold text-xl text-primary-dark mr-4">
+        <div className="w-8 h-8 rounded-xl bg-linear-to-tr from-primary to-primary-dark flex items-center justify-center shadow-sm">
           <FileText className="text-white" size={18} />
         </div>
-        VisaDoc
+        <span className="hidden sm:inline-block">VisaDoc</span>
       </Link>
       {routes.map((route) => (
         <Link
           key={route.href}
           href={route.href}
           className={cn(
-            "text-sm font-medium transition-colors hover:text-white flex items-center gap-2",
-            route.active ? "text-white" : "text-zinc-400"
+            "text-sm font-medium transition-colors hover:text-primary flex items-center gap-2",
+            route.active ? "text-primary" : "text-text-secondary"
           )}
         >
           <route.icon size={16} />

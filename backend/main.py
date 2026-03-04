@@ -18,6 +18,7 @@ import os
 # CORS — allow frontend dev server
 origins = [
     "http://localhost:3000",
+    "https://visa-doc-hub.vercel.app/"
 ]
 frontend_url = os.getenv("FRONTEND_URL")
 if frontend_url:

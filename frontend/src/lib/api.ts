@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create axios instance with auth header injection
 const client = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api",
+  baseURL:"https://visadochub.onrender.com/api",
   withCredentials: true,
 });
 

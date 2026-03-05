@@ -21,7 +21,7 @@ origins = [
     "http://localhost:3000",
     "http://localhost:3001",
     "https://visa-doc-hub.vercel.app",
-    "https://visa-doc-hub-v1uq.vercel.app/"
+    "https://visa-doc-hub-v1uq.vercel.app"
 ]
 frontend_url = os.getenv("FRONTEND_URL")
 if frontend_url:

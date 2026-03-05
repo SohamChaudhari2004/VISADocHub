@@ -26,6 +26,9 @@ origins = [
 frontend_url = os.getenv("FRONTEND_URL")
 if frontend_url:
     origins.append(frontend_url.rstrip('/'))
+admin_url = os.getenv("ADMIN_URL")
+if admin_url:
+    origins.append(admin_url.rstrip('/'))
 
 app.add_middleware(
     CORSMiddleware,

@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from database import engine, Base
-from routers import auth, documents, processing, verification, ds160
+from routers import auth, documents, processing, verification, ds160, admin
 
 # Create all tables on startup
 Base.metadata.create_all(bind=engine)
@@ -18,6 +19,7 @@ import os
 # CORS — allow frontend dev server
 origins = [
     "http://localhost:3000",
+    "http://localhost:3001",
     "https://visa-doc-hub.vercel.app"
 ]
 frontend_url = os.getenv("FRONTEND_URL")
@@ -38,6 +40,10 @@ app.include_router(documents.router)
 app.include_router(processing.router)
 app.include_router(verification.router)
 app.include_router(ds160.router)
+app.include_router(admin.router)
+
+# Mount uploads directory for static file viewing
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 
 

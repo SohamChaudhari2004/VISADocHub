@@ -1,0 +1,2896 @@
+﻿{
+    "value":  [
+                  {
+                      "id":  119,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:23:18.995246",
+                      "fields":  {
+                                     "full_name":  "SOHAM CHAUDHARI",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English (Fluent)",
+                                                    "Hindi (Native)",
+                                                    "Marathi (Native)"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  118,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:23:18.960304",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  117,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content) (1).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:23:18.923558",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  116,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:23:18.889963",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  115,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:23:18.856469",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Passport-style photo of a young boy with short dark hair, wearing a dark suit jacket, light-colored shirt, and patterned tie. No visible text or detectable dimensions."
+                                 }
+                  },
+                  {
+                      "id":  114,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:23:18.823151",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "360127970",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  113,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.680326",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  112,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.647432",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  111,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.619495",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  110,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.586257",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  109,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.555212",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a young person in formal attire (dark blazer, light-colored shirt, patterned tie) with a neutral expression, short dark hair, and direct gaze at the camera. No explicit format or dimensions detected."
+                                 }
+                  },
+                  {
+                      "id":  108,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.521440",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "INDIAN",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "P\u003cINDCHAUDHARI",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  107,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:13:14.502118",
+                      "fields":  {
+                                     "error":  "The provided text is a resume, not a passport. Passport data fields cannot be extracted from this document."
+                                 }
+                  },
+                  {
+                      "id":  106,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:04:24.678467",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  105,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:04:24.654442",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  104,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content) (1).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:04:24.628694",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  103,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:04:24.603325",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  102,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:04:24.576364",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a young person in formal attire (dark blazer, light-colored shirt, patterned tie) with short dark hair, neutral expression, and direct gaze at the camera. No explicit format or dimensions detected."
+                                 }
+                  },
+                  {
+                      "id":  101,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T09:04:24.534642",
+                      "fields":  {
+                                     "full_name":  "SOHAM RAJENDRA CHAUDHARI",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "ANO11510",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  100,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:44:25.122160",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  99,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:44:25.085040",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  98,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content) (1).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:44:25.057507",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  97,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:44:25.032085",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  96,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:44:24.995796",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a young person in formal attire (dark blazer, light-colored shirt, patterned tie) against a plain background."
+                                 }
+                  },
+                  {
+                      "id":  95,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:44:24.959317",
+                      "fields":  {
+                                     "full_name":  "SOHAM RAJENDRA CHAUDHARI",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "ANO11510",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  94,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:24:15.301675",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  93,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:24:15.275880",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  92,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:24:15.250779",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year (renewable with minimum GPA of 3.2 and full-time enrollment)",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  91,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:24:15.222423",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  90,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:24:15.191496",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a young person in formal attire (dark suit jacket, light-colored shirt, patterned tie) with short dark hair, neutral expression, and direct gaze at the camera. Background is plain."
+                                 }
+                  },
+                  {
+                      "id":  89,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-03-04T08:24:15.153532",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "360127970",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  88,
+                      "user_id":  1,
+                      "doc_type":  "invitation_letter",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "failed",
+                      "created_at":  "2026-02-22T09:29:40.520433",
+                      "fields":  null
+                  },
+                  {
+                      "id":  87,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-22T09:29:40.489898",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  86,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-22T09:29:40.462090",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a person in formal attire (dark suit jacket, light-colored shirt, patterned tie) with short dark hair, neutral expression, and direct gaze at the camera. No explicit format or dimensions detected."
+                                 }
+                  },
+                  {
+                      "id":  85,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-22T09:29:40.418881",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "INDIA",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "P360127970",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA, INDIA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  84,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:59:49.352793",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  83,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:59:49.324263",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  82,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content) (1).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:59:49.293359",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  81,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:59:49.262972",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a young person in formal attire (dark blazer, light-colored shirt, patterned tie) with short dark hair, neutral expression, and direct gaze at the camera. No explicit format or dimensions detected."
+                                 }
+                  },
+                  {
+                      "id":  80,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:59:49.234817",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  79,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:59:49.215723",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "360127970",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  78,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:57:47.527460",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  77,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:57:47.494460",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  76,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content) (1).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:57:47.462070",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  75,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:57:47.429183",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Person is wearing a dark suit jacket, light-colored shirt, and patterned tie. Short dark hair, neutral expression, looking directly at the camera."
+                                 }
+                  },
+                  {
+                      "id":  74,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-17T04:57:47.384589",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  73,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "passport.png",
+                      "status":  "failed",
+                      "created_at":  "2026-02-17T04:57:47.336055",
+                      "fields":  null
+                  },
+                  {
+                      "id":  72,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:07:35.354948",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  71,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:07:35.321725",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  70,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:07:35.285923",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  69,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:07:35.253005",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a young person in formal attire (dark blazer, light-colored shirt, and tie) with a neutral expression, short dark hair, and direct gaze at the camera. Background is plain."
+                                 }
+                  },
+                  {
+                      "id":  68,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:07:35.219467",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  67,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:07:35.196324",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "ANO11510",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  66,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:04:03.968076",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  65,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:04:03.932210",
+                      "fields":  {
+                                     "full_name":  "SOHAM CHAUDHARI",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  64,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:04:03.896701",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  63,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:04:03.868878",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Individual is wearing a dark suit jacket, light-colored shirt, and patterned tie. Background is plain."
+                                 }
+                  },
+                  {
+                      "id":  62,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:04:03.819967",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  61,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T19:04:03.778156",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "ANO11510",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "PUNE"
+                                 }
+                  },
+                  {
+                      "id":  60,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:38:54.607765",
+                      "fields":  null
+                  },
+                  {
+                      "id":  59,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:38:54.580076",
+                      "fields":  null
+                  },
+                  {
+                      "id":  58,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:38:54.539056",
+                      "fields":  null
+                  },
+                  {
+                      "id":  57,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:38:54.513651",
+                      "fields":  null
+                  },
+                  {
+                      "id":  56,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:38:54.484688",
+                      "fields":  null
+                  },
+                  {
+                      "id":  55,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:38:54.447301",
+                      "fields":  null
+                  },
+                  {
+                      "id":  54,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:35:58.202451",
+                      "fields":  null
+                  },
+                  {
+                      "id":  53,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:35:58.168141",
+                      "fields":  null
+                  },
+                  {
+                      "id":  52,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:35:58.141697",
+                      "fields":  null
+                  },
+                  {
+                      "id":  51,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:35:58.115169",
+                      "fields":  null
+                  },
+                  {
+                      "id":  50,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:35:58.088745",
+                      "fields":  null
+                  },
+                  {
+                      "id":  49,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:35:58.060626",
+                      "fields":  null
+                  },
+                  {
+                      "id":  48,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:27:25.720646",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  47,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:27:25.696329",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  46,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:27:25.668602",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  45,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:27:25.641542",
+                      "fields":  {
+                                     "photo_format":  "image",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Formal portrait of a young boy in a dark suit jacket, light-colored shirt, and patterned tie. Neutral expression, short dark hair, plain background. No text or explicit dimensions detected."
+                                 }
+                  },
+                  {
+                      "id":  44,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:27:25.620481",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  43,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:27:25.597368",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "INDIA",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  null,
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  null
+                                 }
+                  },
+                  {
+                      "id":  42,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:26:46.069721",
+                      "fields":  null
+                  },
+                  {
+                      "id":  41,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:26:46.044960",
+                      "fields":  null
+                  },
+                  {
+                      "id":  40,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:26:46.022163",
+                      "fields":  null
+                  },
+                  {
+                      "id":  39,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:26:45.996202",
+                      "fields":  null
+                  },
+                  {
+                      "id":  38,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:26:45.973803",
+                      "fields":  null
+                  },
+                  {
+                      "id":  37,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "uploaded",
+                      "created_at":  "2026-02-12T18:26:45.937556",
+                      "fields":  null
+                  },
+                  {
+                      "id":  36,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:14:22.702405",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  35,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:14:22.682001",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  34,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:14:22.658647",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  33,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:14:22.636999",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Formal portrait of an individual in a dark suit jacket, light-colored shirt, and patterned tie. Short dark hair, neutral expression, and direct gaze. Likely an official identification photo."
+                                 }
+                  },
+                  {
+                      "id":  32,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:14:22.615449",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  31,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:14:22.593172",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "706651290",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  30,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:04:23.870656",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  29,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:04:23.826577",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  28,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:04:23.782515",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  27,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:04:23.747151",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Photo depicts a person in formal attire (dark suit jacket, light-colored shirt, patterned tie) with a neutral expression, short dark hair, and direct gaze at the camera. No explicit format or dimensions detected."
+                                 }
+                  },
+                  {
+                      "id":  26,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:04:23.715202",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  25,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "WhatsApp Image 2026-01-31 at 12.53.52 PM.jpeg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T18:04:23.676472",
+                      "fields":  {
+                                     "full_name":  "CHAUDHARI SOHAM RAJENDRA",
+                                     "surname":  "CHAUDHARI",
+                                     "given_names":  "SOHAM RAJENDRA",
+                                     "nationality":  "IND",
+                                     "date_of_birth":  "2004-02-16",
+                                     "sex":  "M",
+                                     "passport_number":  "0402165",
+                                     "date_of_issue":  "2026-01-28",
+                                     "date_of_expiry":  "2036-01-27",
+                                     "place_of_birth":  "JALGAON, MAHARASHTRA",
+                                     "issuing_authority":  "REPUBLIC OF INDIA"
+                                 }
+                  },
+                  {
+                      "id":  24,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:58:52.294076",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  23,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:58:52.272279",
+                      "fields":  {
+                                     "full_name":  "SOHAM CHAUDHARI",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  22,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:58:52.253236",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  21,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:58:52.230955",
+                      "fields":  {
+                                     "photo_format":  "Unknown",
+                                     "dimensions":  null,
+                                     "background_color":  "light-colored",
+                                     "notes":  "Formal portrait of a person wearing a dark suit jacket, light-colored shirt, and patterned tie. Likely an identification photo."
+                                 }
+                  },
+                  {
+                      "id":  20,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:58:52.210377",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  19,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "passport.png",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:58:52.184930",
+                      "fields":  null
+                  },
+                  {
+                      "id":  18,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:56:59.278098",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  17,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:56:59.255730",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  16,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:56:59.234190",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  15,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:56:59.210425",
+                      "fields":  null
+                  },
+                  {
+                      "id":  14,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:56:59.186010",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master\u0027s Degree in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  13,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "passport.png",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:56:59.161717",
+                      "fields":  null
+                  },
+                  {
+                      "id":  12,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:51:41.292669",
+                      "fields":  {
+                                     "account_holder_name":  "Mr. Rajesh Chaudhari",
+                                     "bank_name":  "National Bank of Maharashtra (NBM)",
+                                     "account_number":  "5432",
+                                     "statement_period_start":  "2026-01-01",
+                                     "statement_period_end":  "2026-05-31",
+                                     "opening_balance":  645200,
+                                     "closing_balance":  1314750,
+                                     "currency":  "INR",
+                                     "average_balance":  1142300
+                                 }
+                  },
+                  {
+                      "id":  11,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:51:41.261689",
+                      "fields":  {
+                                     "full_name":  "Soham Chaudhari",
+                                     "email":  "sohamrc08@gmail.com",
+                                     "phone":  "+91 7499787431",
+                                     "address":  "Mumbai, Maharashtra, India",
+                                     "current_employer":  "UnLawC",
+                                     "current_job_title":  "AI Developer",
+                                     "years_of_experience":  "3+",
+                                     "work_history":  [
+                                                          {
+                                                              "employer":  "UnLawC",
+                                                              "title":  "AI Developer",
+                                                              "start_date":  "Sep 2025",
+                                                              "end_date":  "Present",
+                                                              "location":  "Remote"
+                                                          },
+                                                          {
+                                                              "employer":  "SR Counselling",
+                                                              "title":  "SDE Intern",
+                                                              "start_date":  "Dec 2024",
+                                                              "end_date":  "Sep 2025",
+                                                              "location":  "Mumbai"
+                                                          }
+                                                      ],
+                                     "education":  [
+                                                       {
+                                                           "institution":  "Vivekanand Education Society\u0027s Institute of Technology",
+                                                           "degree":  "B.E.",
+                                                           "major":  "Computer Engineering",
+                                                           "graduation_year":  "2026"
+                                                       }
+                                                   ],
+                                     "skills":  [
+                                                    "Python",
+                                                    "JavaScript",
+                                                    "Java",
+                                                    "SQL",
+                                                    "LangChain",
+                                                    "LangGraph",
+                                                    "RAG",
+                                                    "Prompt Engineering",
+                                                    "Transformers",
+                                                    "CLIP",
+                                                    "PyTorch",
+                                                    "TensorFlow",
+                                                    "scikit-learn",
+                                                    "Computer Vision",
+                                                    "NLP",
+                                                    "FAISS",
+                                                    "ChromaDB",
+                                                    "Pinecone",
+                                                    "MongoDB",
+                                                    "PostgreSQL",
+                                                    "Docker",
+                                                    "MLflow",
+                                                    "CI/CD",
+                                                    "Git",
+                                                    "GitHub",
+                                                    "FastAPI",
+                                                    "Flask",
+                                                    "Node.js",
+                                                    "Express.js",
+                                                    "React.js",
+                                                    "Next.js",
+                                                    "Problem Solving",
+                                                    "Team Collaboration",
+                                                    "Communication",
+                                                    "Adaptability",
+                                                    "English",
+                                                    "Hindi",
+                                                    "Marathi"
+                                                ]
+                                 }
+                  },
+                  {
+                      "id":  10,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:51:41.236723",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "institution_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Artificial Intelligence \u0026 Machine Learning",
+                                     "department":  "School of Computing and Data Sciences",
+                                     "admission_type":  "Full-Time",
+                                     "program_start_date":  "2026-08-25",
+                                     "financial_aid":  "NIT Global Merit Scholarship - $10,000 per academic year",
+                                     "admission_decision":  "Admitted",
+                                     "institution_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  9,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:51:41.208876",
+                      "fields":  null
+                  },
+                  {
+                      "id":  8,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "verified",
+                      "created_at":  "2026-02-12T17:51:41.157123",
+                      "fields":  {
+                                     "student_name":  "Soham Chaudhari",
+                                     "sevis_id":  "N0012345678",
+                                     "school_name":  "Northbridge Institute of Technology (NIT)",
+                                     "program_name":  "Master of Science in Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "degree_level":  "Master\u0027s",
+                                     "major":  "Computer Science (Artificial Intelligence \u0026 Machine Learning)",
+                                     "program_start_date":  "2026-08-25",
+                                     "program_end_date":  "2028-05-15",
+                                     "english_proficiency_required":  "Yes",
+                                     "annual_estimated_cost":  "$55,000",
+                                     "funding_source":  "Personal, Family Sponsor, Scholarship / Assistantship",
+                                     "school_address":  "450 Innovation Drive, Boston, MA 02115, USA"
+                                 }
+                  },
+                  {
+                      "id":  7,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "passport.png",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:51:41.117594",
+                      "fields":  null
+                  },
+                  {
+                      "id":  6,
+                      "user_id":  1,
+                      "doc_type":  "bank_statement",
+                      "filename":  "Mock Bank Statement + Sponsor Proof (sample Content).pdf",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:45:32.941930",
+                      "fields":  null
+                  },
+                  {
+                      "id":  5,
+                      "user_id":  1,
+                      "doc_type":  "resume",
+                      "filename":  "SohamChaudhariResumeJan2026.pdf",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:45:32.901520",
+                      "fields":  null
+                  },
+                  {
+                      "id":  4,
+                      "user_id":  1,
+                      "doc_type":  "offer_letter",
+                      "filename":  "Mock Admission _ Offer Letter (sample Content).pdf",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:45:32.857491",
+                      "fields":  null
+                  },
+                  {
+                      "id":  3,
+                      "user_id":  1,
+                      "doc_type":  "visa_photo",
+                      "filename":  "soham chaudhari.jpg",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:45:32.813713",
+                      "fields":  null
+                  },
+                  {
+                      "id":  2,
+                      "user_id":  1,
+                      "doc_type":  "i20",
+                      "filename":  "Mock I-20 Form (sample Content).pdf",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:45:32.771992",
+                      "fields":  null
+                  },
+                  {
+                      "id":  1,
+                      "user_id":  1,
+                      "doc_type":  "passport",
+                      "filename":  "passport.png",
+                      "status":  "failed",
+                      "created_at":  "2026-02-12T17:45:32.696636",
+                      "fields":  null
+                  }
+              ],
+    "Count":  119
+}
+
